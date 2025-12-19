@@ -1,35 +1,35 @@
-# To-Do-List Using JavaScript
-In this tutorial, a JavaScript beginner can be able to create a beautiful and functional to do list using JavaScript.
-I will talk about the logic behind every line of code, before opening my text editor and start typing the code.
-it's a step by step tutorial, you won't get lost at any stage of this tutorial.
+To-Do List Web Application
 
-to follow the tutorial step by step, when we get to the second part (when we type the code), you'll need to download the starter template from here.
+A simple and efficient To-Do List web application built using HTML, CSS, and JavaScript. This app allows users to manage daily tasks with features like task creation, completion tracking, deletion, and persistent storage using browser Local Storage.
 
-The tutorial video link : https://youtu.be/b8sUhU_eq3g
+Features
 
-When you open the folder, you'll find all the files needed to get started, the CSS code, is already typed (see style.css file), as we're not going to talk about CSS in our tutorial. we're going just to talk about HTML and JavaScript.
+Add new tasks
+Mark tasks as completed
+Delete tasks
+Persist tasks using Local Storage
+Display current date dynamically
+Responsive and user-friendly UI
 
-the to-do list we're going to create has a beautiful UI, the user can add a to-do by filling the input and hit ENTER, after that he can rather check the to-do when it's done, or remove it using the delete button.
+Tech Stack
 
-The user's to-do list is stored in the local storage, so when he refreshes the page, he can always find the list there.
+HTML – Application structure
+CSS – Styling and layout
+JavaScript – Application logic and interactivity
+Local Storage – Client-side data persistence
 
-There is the possibility for the user, to clear the list, by clicking the button clear, at the top right corner of our app.
+Project Structure
 
-The to do list app, shows the today's date to the user, for that we're using a method called toLocaleDateString, which you can read about here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString
+To-Do-List/
+│
+├── index.html     
+├── style.css       
+├── script.js       
+└── README.md      
 
-///// Here you can find some other tutorial, that you might like to see /////
+Learning Outcomes
 
-Ping Pong Game Using JavaScript
-https://youtu.be/nl0KXCa5pJk
-
-Create a Multiple Choice Quiz Using JavaScript
-https://youtu.be/49pYIMygIcU
-
-Tetris Game Using JavaScript
-https://youtu.be/HEsAr2Yt2do
-
-Snake Game Using JavaScript
-https://youtu.be/9TcU2C1AACw
-
-Flappy Bird Game Using JavaScript
-https://youtu.be/L07i4g-zhDA
+Hands-on experience with DOM manipulation and event handling
+Understanding of frontend state management
+Practical implementation of Local Storage
+Improved skills in JavaScript-based web application development
